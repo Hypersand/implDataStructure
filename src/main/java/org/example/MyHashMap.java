@@ -18,7 +18,6 @@ public class MyHashMap<K, V> {
         capacity = 1;
         keyArr = (K[]) new Object[capacity];
         valueArr = (V[]) new Object[capacity];
-        Map<String, Integer> map = new HashMap();
     }
 
     public V put(K key, V value) {
